@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #a9d9e7;
+}
+
+.form-container {
+  width: 720px;
+  height: 540px;
+  display: flex;
+  border: solid 5px black;
+  border-radius: 7px;
+}
+.form-container > div {
+  flex: 1;
+}
+
+.form-box {
+  background-color: white;
+  height: 100%;
+  padding: 25px 25px 20px;
+}
+.form-box > h1 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.form-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+  background-color: #007aff;
+}
+.form-logo > img {
+  width: 100%;
+}
+
+.form-box > form {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+.form-group > label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
+.form-group > input, select {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+form > button[type=submit] {
+  background-color: #0078fc;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+  border-radius: 6px;
+  margin-top: 6px;
+}
